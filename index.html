@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil | Safitri</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <!-- ISI NAMA BRAND DI SINI -->
+      <a class="brand" href="#home">Safitri</a>
+
+      <button class="nav-btn" id="navBtn">☰</button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skill</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+        <button class="theme-btn" id="themeBtn" type="button">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== HERO / HOME ========== -->
+  <main id="home" class="hero">
+    <div class="container hero-grid">
+
+      <section class="hero-text">
+        <p class="badge">Safitri's Portfolio</p>
+
+        <!-- ISI NAMA DI SINI -->
+        <h1>Halo, saya <span class="accent">safitri</span> 👋</h1>
+
+        <!-- ISI DESKRIPSI SINGKAT DI SINI -->
+        <p class="muted">
+          Saya adalah pelajar / pemula yang tertarik membuat website yang rapi, responsif,
+          dan mudah digunakan. Saat ini saya hanya fokus belajar HTML, CSS, dan JavaScript.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn" href="#projects">Lihat Proyek</a>
+          <a class="btn ghost" href="#contact">Hubungi</a>
+        </div>
+
+        <div class="stats">
+          <!-- ISI ANGKA STATISTIK DI SINI (opsional) -->
+          <div class="stat">
+            <div class="stat-num" data-counter="5">0</div>
+            <div class="stat-label">Proyek</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-counter="1">0</div>
+            <div class="stat-label">Tahun Belajar</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-counter="3">0</div>
+            <div class="stat-label">Skill Utama</div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="hero-card">
+        <!-- FOTO: Ganti inisial ini jadi foto kalau mau -->
+        <!-- ISI FOTO DI SINI (opsional) -->
+        <!-- Kalau mau pakai foto: letakkan file foto di folder yang sama lalu pakai <img> -->
+        <!-- Contoh:
+          <img class="photo" src="foto.jpg" alt="Foto Versi Kamu" />
+        -->
+        <div class="avatar" aria-hidden="true">SF</div>
+
+        <!-- ISI NAMA + PROFESI DI SINI -->
+        <h2 class="card-title">Safitri</h2>
+        <p class="card-subtitle">Front-end Enthusiast</p>
+
+        <ul class="info-list">
+          <!-- ISI DATA DIRI DI SINI -->
+          <li>📍 Indonesia</li>
+          <li>🎓 Pelajar</li>
+        </ul>
+
+        <div class="social">
+          <!-- ISI LINK SOSIAL MEDIA DI SINI -->
+          <a href="https://github.com/safitri2911" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.instagram.com/_fthrmzzbah?igsh=M3h0YzdqNW14cnJ2" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">Tentang Saya</h2>
+      <p class="muted">Perkenalan singkat tentang diri saya.</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Bio</h3>
+          <!-- ISI BIO DI SINI -->
+          <p>
+            Saya suka membangun website dengan desain minimalis dan struktur kode yang rapi.
+            Target saya adalah menjadi developer yang bisa membuat aplikasi web sederhana sampai kompleks.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Highlight</h3>
+          <!-- ISI HIGHLIGHT DI SINI -->
+          <ul class="checklist">
+            <li>✅ Responsive (Mobile Friendly)</li>
+            <li>✅ Desain sederhana & clean</li>
+            <li>✅ Dasar JavaScript</li>
+            <li>✅ Siap deploy GitHub Pages</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Skill</h2>
+      <p class="muted">Beberapa teknologi yang saya pelajari.</p>
+
+      <div class="skill-grid">
+        <!-- ISI SKILL DI SINI -->
+        <div class="card skill">
+          <div class="skill-top">
+            <h3>HTML</h3><span class="tag">Intermediate</span>
+          </div>
+          <div class="bar"><span style="width: 80%"></span></div>
+        </div>
+
+        <div class="card skill">
+          <div class="skill-top">
+            <h3>CSS</h3><span class="tag">Intermediate</span>
+          </div>
+          <div class="bar"><span style="width: 30%;"></span></div>
+        </div>
+
+        <div class="card skill">
+          <div class="skill-top">
+            <h3>JavaScript</h3><span class="tag">Basic</span>
+          </div>
+          <div class="bar"><span style="width: 55%"></span></div>
+        </div>
+
+        <div class="card skill">
+          <div class="skill-top">
+            <h3>UI/UX</h3><span class="tag">Basic</span>
+          </div>
+          <div class="bar"><span style="width: 50%"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Proyek</h2>
+      <p class="muted">Contoh daftar proyek saya (isi sesuai punyamu).</p>
+
+      <div class="project-grid">
+        <!-- ISI PROYEK DI SINI -->
+        <article class="card project">
+          <h3>Landing Page</h3>
+          <p class="muted">Website promosi sederhana dan responsif.</p>
+          <div class="chips">
+            <span>HTML</span><span>CSS</span><span>Responsive</span>
+          </div>
+          <div class="actions">
+            <a class="btn small" href="#" target="_blank" rel="noopener">Demo</a>
+            <a class="btn ghost small" href="#" target="_blank" rel="noopener">Source</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>To-Do List</h3>
+          <p class="muted">CRUD + simpan data dengan localStorage.</p>
+          <div class="chips">
+            <span>JavaScript</span><span>localStorage</span>
+          </div>
+          <div class="actions">
+            <a class="btn small" href="#" target="_blank" rel="noopener">Demo</a>
+            <a class="btn ghost small" href="#" target="_blank" rel="noopener">Source</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>Portfolio Mini</h3>
+          <p class="muted">Halaman profil satu halaman yang clean.</p>
+          <div class="chips">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <div class="actions">
+            <a class="btn small" href="#" target="_blank" rel="noopener">Demo</a>
+            <a class="btn ghost small" href="#" target="_blank" rel="noopener">Source</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Kontak</h2>
+      
+      <div class="grid-2">
+        <form class="card form" id="contactForm">
+          <!-- ISI/UBAH PLACEHOLDER DI SINI -->
+          <label>
+            Nama
+            <input type="text" name="name" placeholder="Nama kamu" required>
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="emailkamu@gmail.com" required>
+          </label>
+
+          <label>
+            Pesan
+            <textarea name="message" rows="5" placeholder="Tulis pesan..." required></textarea>
+          </label>
+
+          <button class="btn" type="submit">Kirim</button>
+          <p class="muted small" id="note" aria-live="polite"></p>
+        </form>
+
+        <div class="card">
+          <h3>Info Kontak</h3>
+          <!-- ISI DATA KONTAK DI SINI -->
+          <ul class="info-list">
+            <li>📧 Email: s7727015@gmail.com</li>
+            <li>📱 WhatsApp: 082285512894</li>
+            <li>🌐 Website: https://github.com/safitri2911</li>
+          </ul>
+          <p class="muted small">
+            Tips: kalau mau benar-benar kirim pesan, kamu bisa pakai Formspree atau EmailJS.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> 2026</p>
+      <a href="#home" class="muted">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
