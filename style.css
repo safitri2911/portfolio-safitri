@@ -14,9 +14,9 @@
   --panel:#531919;
   --text:#a4b4da;
   --muted:#224e8d;
-  --line:rgba(2,6,23,.12);
-  --accent:#29006c;
-  --shadow:0 10px 30px rgba(2,6,23,.10);
+  --line:rgba(29, 39, 81, 0.12);
+  --accent:#4b3274;
+  --shadow:0 10px 30px rgba(31, 40, 81, 0.1);
 }
 
 *{box-sizing:border-box;}
@@ -38,14 +38,14 @@ a{color:inherit; text-decoration:none;}
 
 .section{padding:70px 0;}
 .section.alt{
-  background: rgba(255,255,255,.03);
+  background: rgba(93, 69, 69, 0.03);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 .section-title{margin:0 0 8px; font-size:1.9rem;}
 
 .card{
-  background: #0b1020;
+  background: #0a1534d4;
   border:1px solid var(--line);
   border-radius:var(--radius);
   padding:18px;
