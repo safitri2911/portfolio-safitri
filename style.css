@@ -2,7 +2,7 @@
   --bg:#0b1020;
   --panel:#cacfd9;
   --text:#e7e9ee;
-  --muted:#a6adbb;
+  --muted:#4666a5;
   --line:rgba(255,255,255,.12);
   --accent:#7c3aed;
   --shadow:0 10px 30px rgba(0,0,0,.35);
@@ -12,8 +12,8 @@
 :root[data-theme="light"]{
   --bg:#f6f7fb;
   --panel:#531919;
-  --text:#0f172a;
-  --muted:#475569;
+  --text:#a4b4da;
+  --muted:#224e8d;
   --line:rgba(2,6,23,.12);
   --accent:#29006c;
   --shadow:0 10px 30px rgba(2,6,23,.10);
